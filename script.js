@@ -588,7 +588,7 @@ if (accessVisuallyImpairedValue === "on") {
 document.addEventListener("DOMContentLoaded", function () {
   // Get references to the select and radio button
   var selectField2 = document.getElementById("Home-Service");
-  var appRadio2 = document.getElementById("app-radio");
+  var appRadio2 = document.getElementsByName("app-radio")[0];
   console.log(selectField2);
   console.log(appRadio2);
   // Add event listener to the select field
